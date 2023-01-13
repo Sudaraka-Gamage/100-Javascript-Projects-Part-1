@@ -1,20 +1,20 @@
 # 100-Javascript-Projects-Part-1
 # Animated-Menu-Bar
 
-# alarm-clock
+# Alarm-clock
 
-# analog-clock
+# Analog-clock
 
-# animated-dark-button
+# Animated-dark-button
 
-# animated-gradient-loader
+# Animated-gradient-loader
 
-# animated-notification-button
+# Animated-notification-button
 
-# animated-search-box
+# Animated-search-box
 
-# animated-sliding-menu-items
+# Animated-sliding-menu-items
 
-# automatic-image-slideshow
+# Automatic-image-slideshow
 
-# currency-converter-app
+# Currency-converter-app
