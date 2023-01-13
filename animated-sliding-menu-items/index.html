@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,
+            initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+        />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <title>Animated Sliding Menu - JS</title>
+    </head>
+    <body>
+        <div class="menu-container">
+            <div class="button">Menu 
+                <span class="fas fa-bars"></span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+                $('.button').click(function(){
+                    if($(this).hasClass('expand')){
+
+                        $('ul').slideUp(function(){
+                            $('.button').removeClass('expand');
+                            $('.fas').removeClass('expand');
+                        });
+
+                    }else{
+                        $(this).addClass('expand');
+                        setTimeout(function(){
+                            $('.fas').addClass('expand');
+                            $('ul').stop().slideDown();
+                        }, 200);
+                    }
+                });
+            });
+        </script>
+    </body>
+
+</html>
