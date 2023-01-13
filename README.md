@@ -1,4 +1,3 @@
-# 100-Javascript-Projects-Part-1
 # Animated-Menu-Bar
 
 # Alarm-clock
